@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Оформление вертикального меню</title>
+	<style>
+		.menu {
+			width: 220px;
+			background: #369;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		.menu ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.menu li {
+			padding: 0;
+			margin-bottom: 15px;
+		}
+		.menu li:last-child {
+			margin-bottom: 0;
+		}
+		.menu li a {
+			display: block;
+			padding: 15px 0 15px 15px;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #69a3c6;
+			background: #fff;
+			font-size: 20px;
+			transition: background 0.15s, color 0.15s;
+			box-sizing: border-box;
+			border: 3px solid #369;
+			font-family: Arial, sans-serif;
+		}
+		.menu li a:hover, .menu li a:focus, .menu li a:active {
+			background: #fffdc5;
+			color: #1b272f;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<nav class="menu">
+		<ul>
+			<li><a href="#">Фильмы</a></li>
+			<li><a href="#">Музыка</a></li>
+			<li><a href="#">Софт</a></li>
+			<li><a href="#">Игры</a></li>
+		</ul>
+	</nav>
+</body>
+</html>
